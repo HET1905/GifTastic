@@ -14,4 +14,12 @@ body{
     cursor: pointer;
     border: 1px solid #000;
 }
+.imgClass{
+    margin-top:10px;
+    widht:200px;
+    height: 200px;
+    border:1px solid #000;
+    border-radius: 5px;
+
+}
 
