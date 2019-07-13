@@ -7,6 +7,10 @@ body{
     background: #ccc;
     font-size: 1em;
 }
+.container{
+    margin:auto auto;
+    width: 90%;
+}
 .dynamicBtn{
     padding:5px;
     margin-left: 5px;
@@ -14,12 +18,30 @@ body{
     cursor: pointer;
     border: 1px solid #000;
 }
+#txtEnter{
+    padding:5px;
+    height: 30px;
+}
+#imgDiv{
+    text-align: center;
+    margin:auto auto;
+    margin-top: 5px;
+    
+}
 .imgClass{
     margin-top:10px;
-    widht:200px;
+    margin-left: 10px;
+    width:200px;
     height: 200px;
     border:1px solid #000;
     border-radius: 5px;
 
 }
-
+.imgDivClass{
+    width: 80%;
+    border:1px solid #000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    /* padding:2px; */
+}
