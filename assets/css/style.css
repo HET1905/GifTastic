@@ -4,12 +4,30 @@
     box-sizing: border-box;
 }
 body{
-    background: #ccc;
+    background: #ccc url("../images/background.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     font-size: 1em;
 }
 .container{
     margin:auto auto;
     width: 90%;
+}
+header h1,header h3{
+    width: 100%;
+    padding:10px 0;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+}
+header h3{
+    font-size: 1.7em;
+    letter-spacing: 1px;
+    padding:0;
+}
+#btnDiv{
+    margin:10px 0;
 }
 .dynamicBtn{
     padding:5px;
@@ -17,6 +35,13 @@ body{
     border-radius: 5px;
     cursor: pointer;
     border: 1px solid #000;
+}
+.dynamicBtn:hover{
+    color: #fff;
+    background: #333;
+}
+#txtDiv h3{
+    margin:10px 0;
 }
 #txtEnter{
     padding:5px;
@@ -26,6 +51,7 @@ body{
     text-align: center;
     margin:auto auto;
     margin-top: 5px;
+    
     
 }
 .imgClass{
@@ -43,5 +69,6 @@ body{
     margin-bottom: 10px;
     margin-left: 10px;
     border-radius: 5px;
+    background: rgba(12,12,12,0.5);
     /* padding:2px; */
 }
